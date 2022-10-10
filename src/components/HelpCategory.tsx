@@ -14,9 +14,9 @@ function HelpCategory({ helpData }: HelpCategoryProps) {
 					<div className="md:flex sm:block flex-wrap justify-center content-center">
 						{helpData.map((data) => {
 							return (
-								<div className="min-h-[115px] sm:w-full md:w-1/2 md:pr-4 flex content-center mb-24 ">
-									<div className="mb-12 flex flex-col max-w-xs xs:pr-4">
-										<img src={data.icon} className="md:max-w-[70px] xs:w-96 mr-8" alt="" />
+								<div className="min-h-[115px] sm:w-full md:w-1/2 md:pr-4 flex content-center mb-24 " key={Math.random()}>
+									<div className="mb-12 flex flex-col max-w-[5rem] xs:pr-4 sm:max-w-[80px] xs:mr-8  xs:min-w-[80px] md:mr-5">
+										<img src={data.icon} className="" alt="" />
 									</div>
 									<div className="pr-6 ">
 										<div>

@@ -1,6 +1,6 @@
 function Hero() {
 	return (
-		<section className="bg-indigo-100 pb-32 pt-20 px-8">
+		<section className="bg-indigo-100 pb-32 pt-20 px-8 static">
 			<div className="max-w-[720px] w-11/12 mx-auto relative">
 				<div className="md:text-7xl text-center mb-8 sm:text-6xl xs:text-4xl">How can we help?</div>
 				<form role="search" className="m-auto ">

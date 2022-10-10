@@ -10,7 +10,7 @@ function InnerFooter({ list, title }: FooterProps) {
 				<h3 className="font-bold text-2xl mt-12 mb-4 block">{title}</h3>
 				{list.map((data) => {
 					return (
-						<a href="#" className="block hover:underline">
+						<a href="#" className="block hover:underline" key={Math.random()}>
 							{data}
 						</a>
 					);
