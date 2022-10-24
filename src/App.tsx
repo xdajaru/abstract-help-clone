@@ -76,7 +76,7 @@ function App() {
 						</svg>
 						<p> &#169; Copyright 2022</p>
 						<p>Abstract Studio Design, Inc.</p>
-						<p>All rights reserved</p>
+						<p>All rights reserved </p>
 					</div>
 				</Footer>
 			</main>
